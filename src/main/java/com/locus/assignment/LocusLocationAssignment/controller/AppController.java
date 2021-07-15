@@ -28,7 +28,7 @@ public class AppController {
             return ResponseEntity.ok(paths);
         } catch (GenericException e) {
             e.printStackTrace();
-            return ResponseEntity.internalServerError().build();
+            return ResponseEntity.badRequest().build();
         }
     }
 
