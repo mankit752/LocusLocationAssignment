@@ -1,4 +1,7 @@
-JDK Used: 11.0.4
+How to Set Up Project:
+1) Import into IDE as Maven Project
+2) Use the Bundled Maven Option
+3) JDK Used: 11.0.4
 
 This Application is used to plot equidistant path(50 metres) between given Source and Destination Points.
 
